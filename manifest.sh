@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+#######################################
+# Manifest to set up CentOS for Drupal#
+# Install MySQL, PHP, Ruby & Git ######
+# Also install drush from pear ########
+#######################################
+
 yum install -y vim
 yum install -y apache2 \
   mysql-server \
